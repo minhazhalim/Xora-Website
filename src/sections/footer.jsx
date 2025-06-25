@@ -12,7 +12,7 @@ const Footer = () => {
                               <p className="text-p5 transition-all duration-500 hover:text-p1">terms of use</p>
                          </div>
                          <ul className="flex flex-1 justify-center gap-3 max-md:mt-10 md:justify-end">
-                              {socials.map(({id,url,icon,title }) => (
+                              {socials.map(({id,url,icon,title}) => (
                                    <li key={id}>
                                         <a href={url} className="social-icon">
                                              <img src={icon} alt={title} className="size-1/3 object-contain"/>

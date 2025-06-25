@@ -16,13 +16,13 @@ const Pricing = () => {
             </h3>
             <div className="relative z-4 mx-auto flex w-[375px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px]">
               <button
-                className={clsx('pricing-head_btn', monthly && 'text-p4')}
+                className={clsx('pricing-head_btn',monthly && 'text-p4')}
                 onClick={() => setMonthly(true)}
               >
                 Monthly
               </button>
               <button
-                className={clsx('pricing-head_btn', !monthly && 'text-p4')}
+                className={clsx('pricing-head_btn',!monthly && 'text-p4')}
                 onClick={() => setMonthly(false)}
               >
                 Annual
@@ -36,14 +36,14 @@ const Pricing = () => {
             </div>
             <div className="pricing-bg">
               <img
-                src="/images/bg-outlines.svg"
+                src="./images/bg-outlines.svg"
                 width={960}
                 height={380}
                 alt="outline"
                 className="relative z-2"
               />
               <img
-                src="/images/bg-outlines-fill.png"
+                src="./images/bg-outlines-fill.png"
                 width={960}
                 height={380}
                 alt="outline"
@@ -125,7 +125,7 @@ const Pricing = () => {
                       className="relative flex items-center gap-5"
                     >
                       <img
-                        src={'/images/check.png'}
+                        src={'./images/check.png'}
                         alt="check"
                         className="size-10 object-contain"
                       />
